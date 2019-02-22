@@ -48,7 +48,6 @@ class Microphone extends EventDispatcher
     {
         super();
         this.index = index;
-        trace("index = " + index);
         if (index >= 0 && index < names.length) this.name = names[index];
 
         audioElement = Browser.document.createAudioElement();
@@ -71,10 +70,10 @@ class Microphone extends EventDispatcher
                 if (device.kind == MediaDeviceKind.AUDIO_INPUT){
                     names.push(device.label);
                     devices.set(device.label, device);
-                } else {
-                    trace("device.label = " + device.label);
-                    trace("device = " + device);
-                }
+                }// else {
+                //    trace("device.label = " + device.label);
+                //    trace("device = " + device);
+                //}
             }
             if (updateNames) Microphone.names = names;
             if (callback != null) callback();

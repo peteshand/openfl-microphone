@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"tags": ["microphone", "openfl", "air", "electron", "html5"],
 	"description": "Flash Microphone API for html5 target",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"releasenote": "initial release",
 	"contributors": [ "p.j.shand" ],
 	"classPath": "src/"
