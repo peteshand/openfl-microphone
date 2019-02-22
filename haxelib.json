@@ -1,0 +1,11 @@
+{
+	"name": "openflMicrophone",
+	"url": "https://github.com/peteshand/openfl-microphone",
+	"license": "MIT",
+	"tags": ["microphone", "openfl", "air", "electron", "html5"],
+	"description": "Flash Microphone API for html5 target",
+	"version": "1.0.0",
+	"releasenote": "initial release",
+	"contributors": [ "p.j.shand" ],
+	"classPath": "src/"
+}
